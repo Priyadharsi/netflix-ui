@@ -1,0 +1,413 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+.container{
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+} 
+body{
+	font-family: Arial,sans-serif;
+     background: #000000;
+     color: #999999;
+}
+ul li{
+	list-style: none;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+.row > *{
+	width: 100%;
+	padding: 0 15px;
+}
+.col-1{
+	width: 8.33%;
+	padding: 0 15px;
+}
+.col-2{
+	width: 16.66%;
+	padding: 0 15px;
+}
+.col-3{
+	width: 25%;
+	padding: 0 15px;
+}
+.col-4{
+	width: 33.33%;
+	padding: 0 15px;
+}
+.col-5{
+	width: 41.66%;
+	padding: 0 15px;
+}
+.col-6{
+	width: 50%;
+	padding: 0 15px;
+}
+.col-7{
+	width: 58.33%;
+	padding: 0 15px;
+}
+.col-8{
+	width: 66.66%;
+	padding: 0 15px;
+}
+.col-9{
+	width: 75%;
+	padding: 0 15px;
+}
+.col-10{
+	width: 83.33%;
+	padding: 0 15px;
+}
+.col-11{
+	width: 91.66%;
+	padding: 0 15px;
+}
+.col-12{
+	width: 100%;
+	padding: 0 15px;
+}
+h3{
+	font-weight: 200;
+}
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+p{
+	margin: 10px 0;
+	font-weight: bold;
+	color: #ffffff;
+}
+img{
+	width: 100%;
+}
+ .header-section{
+	background-image: url(../images/1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	width: 100%;
+	height: 610px;
+}
+ .showcase{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	 background: url("1.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+} 
+.showcase-content h1 h2 h3 p{
+	color: white;
+}
+ .showcase::after{
+	content: "";
+	/* position: absolute;
+	top: 0;
+	left: 0; */
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background: rgba(0, 0, 0, 0.4);
+	box-shadow: 120px 100px 250px #000000;
+}
+.showcase-top{
+	position: relative;
+	z-index: 2;
+	height: 84px;
+}
+.showcase-top img{
+	width: 140px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translate(40% , -50%);
+}
+.showcase-top a{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	transform: translate(-60% , -50%);
+}
+.showcase-content{
+	position: relative;
+	margin: 0 26%;
+	z-index: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin-top: -68px;
+}
+.showcase-content h1{
+	font-weight: 600;
+	font-size: 52px;
+	margin: -18px 30px;
+	width: 818px;
+	line-height: 70px;
+	color: white;
+	
+}
+.showcase-content h3{
+	color: white;
+	font-size: 22px;
+	margin: 22px 0;
+}
+.showcase-content p{
+	font-size: 19px;
+	font-weight: 300;
+	padding-top: 1px;
+	padding-bottom: 4px;
+}
+.showcase-content input{
+	position: absolute;
+	left: 74px;
+	bottom: -82px;
+	width: 430px;
+	height: 48px;
+	font-size: 15px;
+	padding-left: 6px;
+}
+.btn{
+	display: inline-block;
+	background: red;
+	color: white;
+	padding: 10px 22px;
+	font-size: 15px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	border-radius: 3px;
+	margin-right: 5px;
+	outline: none;
+	box-shadow: 0 5px 3px rgba(0 0 0 / 46%);
+	
+}
+.btn:hover{
+	opacity: 0.9;
+}
+btn-rounded{
+	border-radius: 5px;
+}
+.showcase-content .btn-lg{
+	position: absolute;
+	right: 15px;
+	bottom: -81px;
+	padding: 18px 4px;
+	font-size: 13px;
+	text-transform: uppercase;
+	height: 47px;
+	width: 118px;
+	background: #e50f0f;
+}
+.card-0, .card-1, .card-2, .card-3, .faq{
+	border-top: 8px solid rgb(69, 69, 69);
+	padding: 50px;
+}
+/* .footer p{
+	border-top: 8px solid rgb(69, 69, 69);
+	padding: 50px;
+	width: 70%;
+} */
+.card-0{
+	position:relative;
+	display: grid;
+	grid-template-columns: 50% 40%;
+	text-align: left;
+	align-items: center;
+	padding: 25px 45px 50px;
+}
+.desc-0{
+	padding-left: 100px;
+}
+.card-1{
+	position:relative;
+	display: grid;
+	grid-template-columns: 50% 40%;
+	text-align: left;
+	align-items: center;
+	padding: 25px 45px 50px;
+}
+.desc-1{
+	padding-left: 100px;
+}
+.style-cards h1{
+	font-size: 42px;
+	padding: 2px;
+	padding-left: 0;
+}
+.style-cards h3{
+	font-size: 22px;
+	line-height: 27px;
+}
+.cards-1 video{
+	position: relative;
+	width: 100%;
+	height: 54px;
+	grid-column: 2/2;
+	grid-row: 1/2;
+	z-index: -1;
+}
+.card-1 img{
+	grid-column: 2/2;
+	grid-row: 1/2;
+}
+.card-2{
+	position:relative;
+	display: grid;
+	grid-template-columns: 40% 50%;
+	text-align: left;
+	align-items: center;
+	padding: 25px 45px 50px;
+}
+.desc-2{
+	padding-left: 100px;
+}
+.card-3{
+	position:relative;
+	display: grid;
+	grid-template-columns: 50% 40%;
+	text-align: left;
+	align-items: center;
+	padding: 25px 45px 50px;
+}
+.desc-3{
+	padding-left: 100px;
+	padding-right: 20px;
+	
+}
+.card-3 img{
+	width: 110%;
+	grid-column: 2/2;
+	grid-row: 1/2;
+}
+.card-3 video{
+	position: relative;
+	top: -87px;
+	left: 125px;
+	width: 65px;
+	height: 78x;
+	grid-column: 2/2;
+	grid-row: 1/2;
+	z-index: -1;
+}
+.user{
+	text-align: center;
+}
+.user h1{
+	padding-bottom: 40px;
+	font-size: 44px;
+	color: white;
+}
+.questions{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 40%;
+	align-items: center;
+}
+.questions li{
+    padding: 18px 20px;
+    margin: 5px;
+    font-size: 34px;
+    background-color: #303030;
+	color: white;
+	text-align: left;
+	width: 58%;
+}
+.user p{
+    padding-top: 46px;
+	padding-right: 152px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.input{
+    display: inline-grid;
+    grid-template-columns: 50% 40%;
+    align-items: center;
+}
+ .input input{
+    width: 619px;
+	height: 49px;
+	font-size: 16px;
+	padding-left: 9px;
+} 
+ .input button{
+    height: 20px;
+	width: 155px;
+	text-align: center;
+	background-color: red;
+	font-size: 14px;
+	padding: 24px 18px;
+	border: none;
+	border-radius: 2px;
+	color: white;
+}
+.footer{
+	max-width: 70%;
+	margin: 1px auto;
+	overflow:hidden;
+}
+.footer, .footer a{
+	color: #999999;
+	font-size: 12px;
+}
+.footer p{
+	margin-bottom: 12px;
+	color: rgb(161 158 158 / 98%);
+	font-size:14px;
+	
+}
+.footer .footer-cols{
+	display: grid;
+	grid-template-columns: repeat(4 , 1fr);
+	grid-gap: 2px;
+}
+.footer li{
+	line-height:28px;
+	font-size: 20px;
+}	
+  	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+	
+	 
+
+	
+	
+	
+
+
+
+
+
+
+
+	
